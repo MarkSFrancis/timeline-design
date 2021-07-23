@@ -16,5 +16,3 @@ jobs:
         run: yarn --frozen-lockfile --non-interactive
       - name: Build
         run: yarn build
-      - name: Test
-        run: yarn test:all
